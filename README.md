@@ -1,2 +1,2 @@
 # fam-tree-be
-test commit
+To have container up and running `docker-compose up --build`
