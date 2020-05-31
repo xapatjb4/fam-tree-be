@@ -1,0 +1,11 @@
+version: "3"
+services:
+  fam-tree-be:
+    container_name: fam-tree-be
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      ENV_NAME: dev
+    ports:
+      - 3000:3000
